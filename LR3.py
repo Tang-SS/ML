@@ -30,6 +30,9 @@ def train(x, y):
           format(5, 8, model.predict(x_mul)))
 
 
+def new():
+    return None
+
 if __name__ == '__main__':
     x, y = make_data()
     train(x, y)
